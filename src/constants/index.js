@@ -3,10 +3,11 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I am a passionate Business Analyst with a knack for crafting robust and scalable data-driven solutions. With nearly 4 years of hands-on experience, I have honed my skills in data analysis, machine learning, and deep learning, as well as technologies like Python, R, MySQL, AWS, Docker, and Airflow. My goal is to leverage my expertise to create innovative solutions that drive business growth.`;
+export const HERO_CONTENT = ``;
 
-export const ABOUT_TEXT_01 = `I am a dedicated and versatile Data Professional with a passion for creating efficient and impactful data solutions. With nearly 4 years of professional experience, including a stint at a Big4 company as a data analyst and currently as a Business Analyst Intern, I have honed my skills across a spectrum of technologies. My expertise spans Python, Machine Learning, SQL, SPARK, R, and various database systems.`
-export const ABOUT_TEXT_02 = `My journey with data began with a profound curiosity for its mechanics, evolving into a career where I thrive on learning and tackling new challenges. I excel in collaborative environments, deriving satisfaction from solving complex problems to deliver valuable insights and actionable recommendations. Beyond data analysis, I stay active by exploring new technologies and contributing to innovative projects that push the boundaries of what's possible with data.`;
+export const ABOUT_TEXT_01 = `I am a passionate data professional with a knack for crafting robust and scalable data-driven solutions. With nearly 4 years of hands-on experience, including a stint at a Big4 company as a data analyst and currently as a Business Analyst Intern at UNH, I have honed my skills in data analysis, machine learning, and deep learning, as well as technologies like Python, R, MySQL, AWS, Docker, Airflow and various database systems. My goal is to leverage my expertise to create innovative solutions that drive business growth.`
+export const ABOUT_TEXT_02 = `My journey with data began with a profound curiosity for its mechanics, evolving into a career where I thrive on learning and tackling new challenges. I excel in collaborative environments, deriving satisfaction from solving complex problems to deliver valuable insights and actionable recommendations.`;
+export const ABOUT_TEXT_03 = `Beyond data analytics, I stay active by exploring new technologies and contributing to innovative projects that push the boundaries of what's possible with data.`;
 
 export const EXPERIENCES = [
   {
@@ -14,7 +15,7 @@ export const EXPERIENCES = [
     role: "Business Analyst Intern",
     company: "Center for Business Analytics, UNH - Paul College",
     description: `Led a team of 5+ data analysts through end-to-end data analytics projects, boosting sales and customer engagement for local startups. Produced 30+ Tableau visualizations, enhancing decision-making by 25%, alongside developing ad hoc reports and KPI dashboards for data accuracy. Expertly re-engineered datasets with MS-SQL, Python, and Airflow, optimizing pipelines for SSRS compatibility. Integrated AWS S3 data into AWS SageMaker, reducing model development time by 35% and increasing predictive accuracy by 12%.`,
-    technologies: ["Tableau", "MS-SQL", "Statistical Analysis", "AWS", "Apache Airflow", "Airflow"],
+    technologies: ["Python", "R", "Tableau", "MS-SQL", "Statistical Analysis", "AWS", "Airflow"],
   },
   {
     year: "JAN 2021 - JUL 2023",

@@ -1,5 +1,7 @@
 import { HERO_CONTENT } from "../constants";
 import profilePic from "../assets/vikas.png";
+import Deloitte from "../assets/Deloitte.png";
+import UNH from "../assets/UNH.png";
 import { motion } from "framer-motion";
 
 const container = (delay) => ({
@@ -47,15 +49,35 @@ const Hero = () => {
             >
               {HERO_CONTENT}
             </motion.p>
+            <div className="flex space-x-4">
+              <motion.img
+                whileHover={{ scale: 1.2 }}
+                initial={{ x: -100, opacity: 0 }}
+                animate={{ x: 0, opacity: 1 }}
+                transition={{ duration: 1, delay: 1 }}
+                src={Deloitte}
+                alt="Deloitte Logo"
+                className="h-20 w-40 rounded-lg"
+              />
+              <motion.img
+                whileHover={{ scale: 1.2 }}
+                initial={{ x: -100, opacity: 0 }}
+                animate={{ x: 0, opacity: 1 }}
+                transition={{ duration: 1, delay: 1 }}
+                src={UNH}
+                alt="UNH Logo"
+                className="h-20 w-30 rounded-lg"
+              />
+            </div>
           </div>
         </div>
-        <div className="w-full lg:w-1/2 lg:p-8">
+        <div className="w-full lg:w-1/2 lg:p-8 mt-8 lg:mt-0">
           <div className="flex justify-center">
             <motion.img
               whileHover={{scale:1.2}}
               initial={{ x: 100, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
-              transition={{ duration: 1, delay: 1 }}
+              transition={{ duration: 0.5, delay: 0 }}
               src={profilePic}
               alt="Sree Vikas Sabbani"
               className="h-90 w-80 rounded-lg"

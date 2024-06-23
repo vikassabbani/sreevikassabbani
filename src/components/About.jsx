@@ -1,6 +1,7 @@
 import aboutImg from "../assets/about.jpg";
 import { ABOUT_TEXT_01 } from "../constants";
 import { ABOUT_TEXT_02 } from "../constants";
+import { ABOUT_TEXT_03 } from "../constants";
 import { motion } from "framer-motion";
 
 const About = () => {
@@ -31,6 +32,7 @@ const About = () => {
           <div className="my-2 max-w-xl">
             <p className="py-2 text-justify">{ABOUT_TEXT_01}</p>
             <p className="py-2 text-justify">{ABOUT_TEXT_02}</p>
+            <p className="py-2 text-justify">{ABOUT_TEXT_03}</p>
           </div>
         </div>
         </motion.div>
