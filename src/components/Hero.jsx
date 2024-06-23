@@ -35,7 +35,7 @@ const Hero = () => {
                 ]}
                 wrapper="span"
                 speed={50}
-                style={{ fontSize: '2em', display: 'inline-block' }}
+                style={{ fontSize: '1.5em', display: 'inline-block' }}
                 repeat={0}
               />
             </motion.h1>
