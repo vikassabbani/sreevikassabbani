@@ -14,17 +14,29 @@ export const EXPERIENCES = [
     year: "SEP 2023 - Present",
     role: "Business Analyst Intern",
     company: "Center for Business Analytics, UNH - Paul College",
-    description: `Led a team of 5+ data analysts through end-to-end data analytics projects, boosting sales and customer engagement for local startups. Produced 30+ Tableau visualizations, enhancing decision-making by 25%, alongside developing ad hoc reports and KPI dashboards for data accuracy. Expertly re-engineered datasets with MS-SQL, Python, and Airflow, optimizing pipelines for SSRS compatibility. Integrated AWS S3 data into AWS SageMaker, reducing model development time by 35% and increasing predictive accuracy by 12%.`,
+    description: [
+      "Led a team of 5+ data analysts through end-to-end data analytics projects, boosting sales and customer engagement for local startups.",
+      "Produced 30+ Tableau visualizations, enhancing decision-making by 25%, alongside developing ad hoc reports and KPI dashboards for data accuracy.",
+      "Expertly re-engineered datasets with MS-SQL, Python, and Airflow, optimizing pipelines for SSRS compatibility.",
+      "Integrated AWS S3 data into AWS SageMaker, reducing model development time by 35% and increasing predictive accuracy by 12%."
+    ],
     technologies: ["Python", "R", "Tableau", "MS-SQL", "Statistical Analysis", "AWS", "Airflow"],
   },
   {
     year: "JAN 2021 - JUL 2023",
     role: "Data Analyst",
     company: "Deloitte Consulting LLP",
-    description: `Contibuted my expertise at one of the largest healthcare providers in the USA, driving strategic initiatives and leading agile teams of over 30 members through release planning and sprint execution. By translating user needs into actionable stories and managing project backlogs, I accelerated delivery speed by 40%. Integrating complex datasets into Power BI, I delivered insightful visualizations and statistical analyses crucial for stakeholder decision-making. Specializing in healthcare data, I developed advanced models for patient health and disease progression forecasting, alongside a machine learning churn model that reduced customer turnover by 10% and provided key market insights.`,
+    description: [
+      "Contributed expertise at one of the largest healthcare providers in the USA, driving strategic initiatives and leading agile teams of over 30 members through release planning and sprint execution.",
+      "By translating user needs into actionable stories and managing project backlogs, accelerated delivery speed by 40%.",
+      "Integrated complex datasets into Power BI, delivering insightful visualizations and statistical analyses crucial for stakeholder decision-making.",
+      "Specialized in healthcare data, developed advanced models for patient health and disease progression forecasting.",
+      "Developed a machine learning churn model that reduced customer turnover by 10% and provided key market insights."
+    ],
     technologies: ["Power BI", "Python", "Machine Learning", "Excel", "Jira / Agile"],
   },
 ];
+
 
 export const PROJECTS = [
   {
