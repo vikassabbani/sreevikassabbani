@@ -14,14 +14,14 @@ export const EXPERIENCES = [
     role: "Business Analyst Intern",
     company: "Center for Business Analytics, UNH - Paul College",
     description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Power BI", "Tableau", "MS-SQL", "Python", "Statistical Analysis", "AWS", "Apache", "Airflow"],
+    technologies: ["Tableau", "MS-SQL", "Statistical Analysis", "AWS", "Apache", "Airflow"],
   },
   {
     year: "JAN 2021 - JUL 2023",
     role: "Data Analyst",
     company: "Deloitte Consulting LLP",
     description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["Power BI", "Python", "Machine Learning", "Excel", "Data Analysis", "Time Series", "Jira / Agile"],
+    technologies: ["Power BI", "Python", "Machine Learning", "Excel", "Jira / Agile"],
   },
 ];
 
