@@ -1,8 +1,7 @@
-import { motion } from "framer-motion";
+import { motion, AnimatePresence } from "framer-motion";
 import spot from "../assets/Spot Award.jpg";
 import powerbi from "../assets/powerbi.jpg";
 import {Swiper, SwiperSlide} from "swiper/react";
-
 import 'swiper/css'
 import 'swiper/css/pagination'
 import 'swiper/css/free-mode'
@@ -52,6 +51,14 @@ const Certification = () => {
             <img className="rounded-2xl" src={spot} alt="Spot Award" />
           </div>
         </motion.div>
+        <AnimatePresence>
+            {(
+              <motion.div
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  exit={{ opacity: 0 }}
+              />)}
+        </AnimatePresence>
       </div>
     </div>
   );

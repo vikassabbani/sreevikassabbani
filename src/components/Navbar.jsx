@@ -24,21 +24,21 @@ const Navbar = () => {
                 <motion.h1 
                 whileHover={{scale:1.5}}
                 whileTap={{scale:1.1}}
-                >About Me</motion.h1>
+                ><a href="#about-me">About Me</a></motion.h1>
                 <motion.h1
                  whileHover={{scale:1.5}}
                  whileTap={{scale:1.1}}
-                 >Experience</motion.h1>
+                 ><a href="#experience">Experience</a></motion.h1>
                 <motion.h1
                  whileHover={{scale:1.5}}
                  whileTap={{scale:1.1}}
-                 >Projects</motion.h1>
+                 ><a href="#projects">Projects</a></motion.h1>
                 <motion.h1
                  whileHover={{scale:1.5}}
                  whileTap={{scale:1.1}}
-                 >Contact</motion.h1>
+                 ><a href="#contact">Contact</a></motion.h1>
             </motion.div>
-
+            
             <motion.div 
             whileHover={{scale:1.2}}
             whileTap={{scale:1.1}}
