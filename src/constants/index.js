@@ -2,6 +2,8 @@ import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
+import project5 from "../assets/projects/project-5.jpg";
+import project6 from "../assets/projects/project-6.jpg";
 
 export const HERO_CONTENT = ``;
 
@@ -40,32 +42,51 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
-    image: project1,
-    description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
-  },
-  {
-    title: "Task Management App",
+    link: "https://github.com/vikassabbani/Airbnb-Booking-Analysis",
+    title: "Boosting Airbnb Bookings using Predictive Analysis",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "Focused on optimizing Airbnb listing strategies in San Diego city. We identified and leveraged key drivers of booking rates. Our data-driven approach enabled us to uncover actionable insights, ultimately enhancing listing performance and maximizing booking rates for host.",
+    technologies: ["Machine Learning", "NLP", "Data Visualization", "Python"],
+  },
+  { link: "https://github.com/vikassabbani/Statistical-Analysis/blob/main/Health%20Care%20Satisfaction/Health%20Care%20Satisfaction.pdf",
+    title: "Strategic Data Insights for Healthcare",
+    image: project1,
+    description:
+      "This project aims to enhance healthcare experiences by uncovering trends in patient satisfaction metrics. By identifying areas for improvement, such as resource allocation and operational efficiency, ultimately leading to strategic advancements in patient care and hospital management.",
+    technologies: ["Power BI", "R Language", "SQL"],
   },
   {
-    title: "Portfolio Website",
+    link: "https://public.tableau.com/app/profile/sree.vikas.sabbani/viz/COD_17030338656560/Story1",
+    title: "Visualizing Product Performance with Tableau",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "Crafted a comprehensive Tableau visualization story that delves into product analysis and review trends. This interactive presentation provides clear insights into product performance, consumer feedback trends, and actionable analytics for strategic decision-making.",
+    technologies: ["Tableau", "Data Pre-processing ", "Visualization Design"],
   },
   {
-    title: "Blogging Platform",
+    link: "https://github.com/vikassabbani/ML---Classification-models",
+    title: "Abalone Gender Classification",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "This project focuses on using machine learning techniques to classify the gender of abalones based on their physical characteristics. We evaluated multiple ML models to determine the most accurate prediction method while striking a balance between accuracy and interpretability.",
+    technologies: ["Machine Learning", "R Language", "Caret Package", "Data Handling"],
+  },
+  {
+    link: "https://github.com/vikassabbani/Statistical-Analysis/tree/main/Market%20Basket%20Analysis%20Project",
+    title: "Market Basket Analysis for Retail Optimization",
+    image: project5,
+    description:
+      "Explored Market Basket Analysis to understand customer buying patterns in the retail industry. Implemented data mining techniques, specifically the Apriori and FP-Growth algorithms, to analyze large transaction datasets. By calculating metrics such as support, confidence, and lift, we identified strong association rules that reveal which products are frequently bought together.",
+    technologies: ["Data Mining", "Metrics Evaluation", "Apriori and FP-Growth Algorithms"],
+  },
+  {
+    link: "https://github.com/vikassabbani/Statistical-Analysis/tree/main/Time%20Series%20Project",
+    title: "Time Series Forecasting of Retail Car Sales",
+    image: project6,
+    description:
+      "The project centered on applying the X11 decomposition method to analyze and forecast retail car sales data obtained from the US Census Bureau. Data spanning the period from 2000 to 2023, extracted valuable insights of seasonal patterns, long-term trends, and irregular fluctuations within the automotive sector.",
+    technologies: ["R programming", "Time Series Analysis", "Statistical Models", "Data Visualization"],
   },
 ];
 
