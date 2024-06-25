@@ -43,14 +43,14 @@ export const EXPERIENCES = [
 export const PROJECTS = [
   {
     link: "https://github.com/vikassabbani/Airbnb-Booking-Analysis",
-    title: "Boosting Airbnb Bookings using Predictive Analysis",
+    title: "Boosting Airbnb Bookings using Predictive Analysis | Check it out",
     image: project2,
     description:
       "Focused on optimizing Airbnb listing strategies in San Diego city. We identified and leveraged key drivers of booking rates. Our data-driven approach enabled us to uncover actionable insights, ultimately enhancing listing performance and maximizing booking rates for host.",
     technologies: ["Machine Learning", "NLP", "Data Visualization", "Python"],
   },
   { link: "https://github.com/vikassabbani/Statistical-Analysis/blob/main/Health%20Care%20Satisfaction/Health%20Care%20Satisfaction.pdf",
-    title: "Strategic Data Insights for Healthcare",
+    title: "Strategic Data Insights for Healthcare | Check it out",
     image: project1,
     description:
       "This project aims to enhance healthcare experiences by uncovering trends in patient satisfaction metrics. By identifying areas for improvement, such as resource allocation and operational efficiency, ultimately leading to strategic advancements in patient care and hospital management.",
@@ -58,7 +58,7 @@ export const PROJECTS = [
   },
   {
     link: "https://public.tableau.com/app/profile/sree.vikas.sabbani/viz/COD_17030338656560/Story1",
-    title: "Visualizing Product Performance with Tableau",
+    title: "Visualizing Product Performance with Tableau | Check it out",
     image: project3,
     description:
       "Crafted a comprehensive Tableau visualization story that delves into product analysis and review trends. This interactive presentation provides clear insights into product performance, consumer feedback trends, and actionable analytics for strategic decision-making.",
@@ -66,7 +66,7 @@ export const PROJECTS = [
   },
   {
     link: "https://github.com/vikassabbani/ML---Classification-models",
-    title: "Abalone Gender Classification",
+    title: "Abalone Gender Classification | Check it out",
     image: project4,
     description:
       "This project focuses on using machine learning techniques to classify the gender of abalones based on their physical characteristics. We evaluated multiple ML models to determine the most accurate prediction method while striking a balance between accuracy and interpretability.",
@@ -74,7 +74,7 @@ export const PROJECTS = [
   },
   {
     link: "https://github.com/vikassabbani/Statistical-Analysis/tree/main/Market%20Basket%20Analysis%20Project",
-    title: "Market Basket Analysis for Retail Optimization",
+    title: "Market Basket Analysis for Retail Optimization | Check it out",
     image: project5,
     description:
       "Explored Market Basket Analysis to understand customer buying patterns in the retail industry. Implemented data mining techniques, specifically the Apriori and FP-Growth algorithms, to analyze large transaction datasets. By calculating metrics such as support, confidence, and lift, we identified strong association rules that reveal which products are frequently bought together.",
@@ -82,7 +82,7 @@ export const PROJECTS = [
   },
   {
     link: "https://github.com/vikassabbani/Statistical-Analysis/tree/main/Time%20Series%20Project",
-    title: "Time Series Forecasting of Retail Car Sales",
+    title: "Time Series Forecasting of Retail Car Sales | Check it out",
     image: project6,
     description:
       "The project centered on applying the X11 decomposition method to analyze and forecast retail car sales data obtained from the US Census Bureau. Data spanning the period from 2000 to 2023, extracted valuable insights of seasonal patterns, long-term trends, and irregular fluctuations within the automotive sector.",

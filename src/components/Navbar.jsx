@@ -28,7 +28,7 @@ const Navbar = () => {
                 <motion.h1
                  whileHover={{scale:1.5}}
                  whileTap={{scale:1.1}}
-                 ><a href="#experience">Experience</a></motion.h1>
+                 ><a href="#experience">Experiences</a></motion.h1>
                 <motion.h1
                  whileHover={{scale:1.5}}
                  whileTap={{scale:1.1}}
