@@ -7,10 +7,9 @@ import Headroom from "react-headroom";
 
 const Navbar = () => {
     return (
-        
         <nav className="mb-20 flex items-center justify-between py-6">
             <motion.div
-            
+        
             whileHover={{scale:1.2}}
             whileTap={{scale:1.1}}
             className="flex flex-shrink-0 items-center">
