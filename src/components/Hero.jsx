@@ -127,7 +127,7 @@ const Hero = () => {
               alt="Sree Vikas Sabbani"
               className="h-90 w-80 rounded-lg"
             />
-          </div>
+          </div>    
         </div>
       </div>
     </div>
