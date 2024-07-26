@@ -37,6 +37,16 @@ export const EXPERIENCES = [
     ],
     technologies: ["Power BI", "Python", "Machine Learning", "Excel", "Jira / Agile"],
   },
+  {
+    year: "DEC 2019 - NOV 2020",
+    role: "Business Intelligence Intern",
+    company: "Premier Energies Limited",
+    description: [
+      "Utilized SQL and Python for data manipulation, analysis, and reporting, supporting various business functions.",
+      "Conducted operational analysis to identify process inefficiencies and recommended improvements.",
+      "Supported the development and automation of reporting tools, streamlining data analysis processes."],
+    technologies: ["Data Analysis", "Statistics", "Data Streaming", "Python", "Excel"],
+  },
 ];
 
 
