@@ -102,7 +102,7 @@ const Hero = () => {
                 animate={{ x: 0, opacity: 1 }}
                 transition={{ duration: 1, delay: 1 }}
                 src={WIN}
-                alt="Deloitte Logo"
+                alt="WIN Logo"
                 className="h-20 w-30 rounded-lg"
               />
               </motion.p>
