@@ -105,8 +105,6 @@ const Hero = () => {
                 alt="WIN Logo"
                 className="h-20 w-30 rounded-lg"
               />
-              </motion.p>
-              <div className="flex space-x-4">
               <motion.img
                 whileHover={{ scale: 1.2 }}
                 initial={{ x: -100, opacity: 0 }}
