@@ -1,5 +1,6 @@
 import { HERO_CONTENT } from "../constants";
 import profilePic from "../assets/vikas.png";
+import WIN from "../assets/WIN.png";
 import Deloitte from "../assets/Deloitte.png";
 import UNH from "../assets/UNH.png";
 import { motion } from "framer-motion";
@@ -95,6 +96,17 @@ const Hero = () => {
               {HERO_CONTENT}
             </motion.p>
             <div className="flex space-x-4">
+              <motion.img
+                whileHover={{ scale: 1.2 }}
+                initial={{ x: -100, opacity: 0 }}
+                animate={{ x: 0, opacity: 1 }}
+                transition={{ duration: 1, delay: 1 }}
+                src={WIN}
+                alt="Deloitte Logo"
+                className="h-20 w-30 rounded-lg"
+              />
+              </motion.p>
+              <div className="flex space-x-4">
               <motion.img
                 whileHover={{ scale: 1.2 }}
                 initial={{ x: -100, opacity: 0 }}
