@@ -1,6 +1,6 @@
 import { HERO_CONTENT } from "../constants";
 import profilePic from "../assets/vikas.png";
-import WIN from "../assets/WIN.png";
+import WIN from "src/assets/WIN.png";
 import Deloitte from "../assets/Deloitte.png";
 import UNH from "../assets/UNH.png";
 import { motion } from "framer-motion";
