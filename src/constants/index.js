@@ -13,7 +13,19 @@ export const ABOUT_TEXT_03 = `Beyond data analytics, I stay active by exploring 
 
 export const EXPERIENCES = [
   {
-    year: "SEP 2023 - Present",
+    year: "SEP 2024 - Present",
+    role: "Data Engineer",
+    company: "Commercial Business Analyst",
+    description: [
+      "Automated manual data transformation workflows using PySpark and Azure Data Lake Storage, improving processing efficiency and scalability.",
+      "Extracted and transformed data from Azure SQL Server using PySpark and SQL, improving data availability for business users.",
+      "Orchestrated data pipelines using Apache Airflow, enabling automated data workflows and reducing manual intervention by 50%.",
+      "Enhanced operational efficiency by automating legacy desktop applications with Python, reducing repetitive tasks by 60%."
+    ],
+    technologies: ["PySpark", "ETL Pipelines", "Microsoft Fabric", "Azure SQL", "Machine Learning", "Airflow", "Power BI"],
+  }
+  {
+    year: "SEP 2023 - SEP 2024",
     role: "Business Analyst Intern",
     company: "Center for Business Analytics, UNH - Paul College",
     description: [
