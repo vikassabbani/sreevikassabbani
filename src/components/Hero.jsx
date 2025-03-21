@@ -114,15 +114,7 @@ const Hero = () => {
                 alt="Deloitte Logo"
                 className="h-20 w-30 rounded-lg"
               />
-              <motion.img
-                whileHover={{ scale: 1.2 }}
-                initial={{ x: -100, opacity: 0 }}
-                animate={{ x: 0, opacity: 1 }}
-                transition={{ duration: 1, delay: 1 }}
-                src={UNH}
-                alt="UNH Logo"
-                className="h-20 w-30 rounded-lg"
-              />
+              
             </div>
           </div>
         </div>
