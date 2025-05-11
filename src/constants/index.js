@@ -14,7 +14,7 @@ export const ABOUT_TEXT_03 = `Beyond data analytics, I stay active by exploring 
 export const EXPERIENCES = [
   {
     year: "SEP 2024 - Present",
-    role: "COmmercial Business Analyst",
+    role: "Commercial Business Analyst",
     company: "WIN Waste Innovations",
     description: [
       "Automated manual data transformation workflows using PySpark and Azure Data Lake Storage, improving processing efficiency and scalability.",
