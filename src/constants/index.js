@@ -23,7 +23,7 @@ export const EXPERIENCES = [
       "Enhanced operational efficiency by automating legacy desktop applications with Python, reducing repetitive tasks by 60%."
     ],
     technologies: ["PySpark", "ETL Pipelines", "Microsoft Fabric", "Azure SQL", "Machine Learning", "Airflow", "Power BI"],
-  }
+  },
   {
     year: "SEP 2023 - SEP 2024",
     role: "Business Analyst",
