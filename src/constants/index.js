@@ -14,8 +14,8 @@ export const ABOUT_TEXT_03 = `Beyond data analytics, I stay active by exploring 
 export const EXPERIENCES = [
   {
     year: "SEP 2024 - Present",
-    role: "Data Engineer",
-    company: "Commercial Business Analyst",
+    role: "COmmercial Business Analyst",
+    company: "WIN Waste Innovations",
     description: [
       "Automated manual data transformation workflows using PySpark and Azure Data Lake Storage, improving processing efficiency and scalability.",
       "Extracted and transformed data from Azure SQL Server using PySpark and SQL, improving data availability for business users.",
@@ -26,7 +26,7 @@ export const EXPERIENCES = [
   }
   {
     year: "SEP 2023 - SEP 2024",
-    role: "Business Analyst Intern",
+    role: "Business Analyst",
     company: "Center for Business Analytics, UNH - Paul College",
     description: [
       "Led a team of 5+ data analysts through end-to-end data analytics projects, boosting sales and customer engagement for local startups.",
@@ -38,7 +38,7 @@ export const EXPERIENCES = [
   },
   {
     year: "JAN 2021 - JUL 2023",
-    role: "Data Analyst",
+    role: "DC Analyst",
     company: "Deloitte Consulting LLP",
     description: [
       "Contributed expertise at one of the largest healthcare providers in the USA, driving strategic initiatives and leading agile teams of over 30 members through release planning and sprint execution.",
@@ -50,8 +50,8 @@ export const EXPERIENCES = [
     technologies: ["Power BI", "Python", "Machine Learning", "Excel", "Jira / Agile"],
   },
   {
-    year: "DEC 2019 - NOV 2020",
-    role: "Business Intelligence Intern",
+    year: "NOV 2019 - DEC 2020",
+    role: "Data Analyst",
     company: "Premier Energies Limited",
     description: [
       "Utilized SQL and Python for data manipulation, analysis, and reporting, supporting various business functions.",
